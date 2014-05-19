@@ -24,7 +24,7 @@ function! leaderboard#add_entry(name, key, cmds)
 endfunction
 
 function! s:save()
-  call s:append_to_file("/Users/davidpdrsn/.leaderboard_hist", s:history)
+  call s:append_to_file(expand("~/.leaderboard_hist"), s:history)
 endfunction
 
 augroup leaderboard#save_history
