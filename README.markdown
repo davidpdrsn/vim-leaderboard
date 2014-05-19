@@ -32,10 +32,12 @@ There is a little bit of setup required:
 
 Once this is done you can run your leader commands as usual.
 
+Currently you can only add mappings with `noremap` but the rest will soon be added.
+
 Getting the data
 ----------------
 
-When you quit Vim the history of the session will be saved it a file at `~/.leaderboard_hist`. This is a CSV file with the following format:
+When you quit Vim the history of the session will be saved (or appended) it a file at `~/.leaderboard_hist`. This is a CSV file with the following format:
 
 ```csv
 name,key,command,datetime
