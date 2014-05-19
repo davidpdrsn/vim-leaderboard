@@ -1,6 +1,8 @@
 vim-leaderboard
 ===============
 
+**This is still very beta, use at your own risk!**
+
 vim-leaderboard is a Vim plugin that allows you keep track of which leader commands you run, when you run them, and what the command actually was.
 
 You just run your leader commands as usual when you quit Vim your new data gets saved in a CSV file. You can then parse the CSV and do whatever you want with the data.
