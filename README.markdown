@@ -1,7 +1,7 @@
 vim-leaderboard
 ===============
 
-**This is still very beta, use at your own risk!**
+**This is still very beta (and doesn't really work), use at your own risk!**
 
 vim-leaderboard is a Vim plugin that allows you keep track of which leader commands you run, when you run them, and what the command actually was.
 
